@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function PageHero({eyebrow,title,copy}:{eyebrow:string,title:string,copy:string}){return <section className="bg-gradient-to-br from-brand-50 to-white py-16 sm:py-24"><div className="container-page"><p className="eyebrow">{eyebrow}</p><h1 className="max-w-4xl text-4xl font-black tracking-tight sm:text-6xl">{title}</h1><p className="section-copy">{copy}</p><Link href="/contact" className="btn-primary mt-7">Book a Session →</Link></div></section>}

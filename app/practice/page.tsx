@@ -1,0 +1,3 @@
+import type { Metadata } from "next"; import PracticeQuiz from "./PracticeQuiz";
+export const metadata:Metadata={title:"Practice",description:"Free interactive Math, English, and Reading practice quizzes for elementary through high school."};
+export default function Practice(){return <main className="min-h-[75vh] bg-slate-50 py-16"><div className="container-page"><div className="mb-10 text-center"><p className="eyebrow">Free practice platform</p><h1 className="section-title">Challenge your skills</h1><p className="section-copy mx-auto">Choose a grade level and subject for an original, instant-feedback quiz. No login required.</p></div><PracticeQuiz/></div></main>}
